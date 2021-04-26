@@ -1,5 +1,5 @@
 ///////
-/////// PS2toPC1512.ino
+/////// PS22PC1512.ino
 /////// 
 /////// PS/2 TO AMSTRAD PC1512 KEYBOARD CONVERTER
 ///////
