@@ -74,7 +74,7 @@ Amstrad Protocol Information:
 
 PS/2 to XT keyboard converter:  <https://github.com/kesrut/pcxtkbd>
 
-**Arduino based protocol converter from PS2 to PC1512:**   https://github.com/somhi/AmstradPS2/
+**Arduino based protocol converter from PS2 to Amstrad XT (tested on PC1512):**   https://github.com/somhi/AmstradXTPS2
 
 Amstrad keyboard controller (keyboard matrix X/Y should be connected to CP802/3 connectors):
 
@@ -82,11 +82,13 @@ Amstrad keyboard controller (keyboard matrix X/Y should be connected to CP802/3 
 
 
 
+Some notes for personal reference regarding the wire color connections between connector pins and arduino pins:
+
 ![keyboard-pins](images/keyboard-pins.png)
 
 
 
-These are the connections when I tested converter signals with a Logic analyzer (Pink wire = Clock, Green wire = Data, Red wire = 5V, Black wire = GND):
+Just for personal reference, these are the connections when I tested converter signals with a Logic analyzer (Pink wire = Clock, Green wire = Data, Red wire = 5V, Black wire = GND):
 
 ![keyboard-interface-wire-colors-analog-discovery](images/keyboard-interface-wire-colors-analog-discovery.jpg)
 
